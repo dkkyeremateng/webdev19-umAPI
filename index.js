@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 mongoose
 	.connect('mongodb://localhost:27017/umAPI', { useNewUrlParser: true })
 	.then(() => {
-		console.log('Connected to mongodb');
+		console.log('Connected to mongodb...');
 	});
 
 const users = require('./routes/users');
